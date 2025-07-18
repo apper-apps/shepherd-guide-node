@@ -88,13 +88,13 @@ const Dashboard = () => {
       />
 
       {/* Hero Section */}
+{/* Hero Section */}
       <div className="text-center space-y-6">
         <div className="space-y-4">
           <h1 className="text-4xl font-bold text-surface-900">
-            Welcome to <span className="text-gradient-primary">Not at all Shepherd</span>
+            Welcome to <span className="text-gradient-primary">Not at all Shepherd</span> from chat of Apper
           </h1>
           <p className="text-xl text-surface-600 max-w-2xl mx-auto">
-            Create professional step-by-step guides by recording your browser actions. 
             Perfect for tutorials, onboarding, and documentation.
           </p>
         </div>
