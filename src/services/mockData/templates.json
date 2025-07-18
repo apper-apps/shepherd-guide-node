@@ -1,0 +1,101 @@
+[
+  {
+    "Id": 1,
+    "title": "Software Onboarding Template",
+    "description": "A comprehensive template for creating user onboarding guides for web applications",
+    "category": "onboarding",
+    "steps": 8,
+    "downloads": 245,
+    "preview": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop",
+    "templateSteps": [
+      {
+        "id": "template-step-1",
+        "order": 1,
+        "action": "navigate",
+        "element": "window.location",
+        "description": "Navigate to the welcome page",
+        "screenshot": "",
+        "timestamp": ""
+      },
+      {
+        "id": "template-step-2",
+        "order": 2,
+        "action": "click",
+        "element": "button[data-action='start-tour']",
+        "description": "Click 'Start Tour' to begin the guided experience",
+        "screenshot": "",
+        "timestamp": ""
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "title": "API Documentation Guide",
+    "description": "Template for creating step-by-step API documentation and integration guides",
+    "category": "documentation",
+    "steps": 12,
+    "downloads": 189,
+    "preview": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+    "templateSteps": []
+  },
+  {
+    "Id": 3,
+    "title": "Feature Tutorial Template",
+    "description": "Perfect for showcasing new features and functionality to users",
+    "category": "tutorial",
+    "steps": 6,
+    "downloads": 312,
+    "preview": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=400&h=300&fit=crop",
+    "templateSteps": []
+  },
+  {
+    "Id": 4,
+    "title": "Workflow Automation Guide",
+    "description": "Template for documenting complex business processes and workflows",
+    "category": "workflow",
+    "steps": 15,
+    "downloads": 156,
+    "preview": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop",
+    "templateSteps": []
+  },
+  {
+    "Id": 5,
+    "title": "Admin Panel Setup",
+    "description": "Complete guide template for setting up and configuring admin panels",
+    "category": "tutorial",
+    "steps": 10,
+    "downloads": 98,
+    "preview": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=300&fit=crop",
+    "templateSteps": []
+  },
+  {
+    "Id": 6,
+    "title": "User Registration Flow",
+    "description": "Template for creating user registration and account setup guides",
+    "category": "onboarding",
+    "steps": 7,
+    "downloads": 267,
+    "preview": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop",
+    "templateSteps": []
+  },
+  {
+    "Id": 7,
+    "title": "Troubleshooting Guide",
+    "description": "Template for creating comprehensive troubleshooting documentation",
+    "category": "documentation",
+    "steps": 9,
+    "downloads": 134,
+    "preview": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&h=300&fit=crop",
+    "templateSteps": []
+  },
+  {
+    "Id": 8,
+    "title": "Data Import Process",
+    "description": "Step-by-step template for data migration and import procedures",
+    "category": "workflow",
+    "steps": 11,
+    "downloads": 87,
+    "preview": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=300&fit=crop",
+    "templateSteps": []
+  }
+]

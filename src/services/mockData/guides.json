@@ -1,0 +1,221 @@
+[
+  {
+    "Id": 1,
+    "title": "How to Create a New Project",
+    "description": "Step-by-step guide to creating a new project in the dashboard",
+    "status": "Published",
+    "createdAt": "2024-01-15T10:30:00Z",
+    "updatedAt": "2024-01-16T14:20:00Z",
+    "views": 45,
+    "shareId": "proj-create-001",
+    "steps": [
+      {
+        "id": "step-1",
+        "order": 1,
+        "action": "click",
+        "element": "button[data-testid='new-project-btn']",
+        "description": "Click on the 'New Project' button in the header",
+        "screenshot": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-15T10:31:00Z",
+        "annotations": [
+          {
+            "type": "highlight",
+            "coordinates": { "x": 100, "y": 50, "width": 120, "height": 40 },
+            "text": "Click here",
+            "style": { "color": "#f59e0b" }
+          }
+        ]
+      },
+      {
+        "id": "step-2",
+        "order": 2,
+        "action": "type",
+        "element": "input[name='project-name']",
+        "description": "Enter a name for your new project",
+        "screenshot": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-15T10:32:00Z",
+        "annotations": []
+      },
+      {
+        "id": "step-3",
+        "order": 3,
+        "action": "click",
+        "element": "button[type='submit']",
+        "description": "Click 'Create Project' to finish setup",
+        "screenshot": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-15T10:33:00Z",
+        "annotations": []
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "title": "User Onboarding Flow",
+    "description": "Complete walkthrough of the user onboarding process",
+    "status": "Published",
+    "createdAt": "2024-01-12T09:15:00Z",
+    "updatedAt": "2024-01-14T11:45:00Z",
+    "views": 78,
+    "shareId": "user-onboard-002",
+    "steps": [
+      {
+        "id": "step-4",
+        "order": 1,
+        "action": "navigate",
+        "element": "window.location",
+        "description": "Navigate to the welcome page",
+        "screenshot": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-12T09:16:00Z",
+        "annotations": []
+      },
+      {
+        "id": "step-5",
+        "order": 2,
+        "action": "click",
+        "element": "button[data-action='start-tour']",
+        "description": "Click 'Start Tour' to begin the guided experience",
+        "screenshot": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-12T09:17:00Z",
+        "annotations": []
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "title": "Setting Up Team Permissions",
+    "description": "Configure user roles and permissions for your team",
+    "status": "Draft",
+    "createdAt": "2024-01-10T16:20:00Z",
+    "updatedAt": "2024-01-11T10:30:00Z",
+    "views": 23,
+    "shareId": "team-perms-003",
+    "steps": [
+      {
+        "id": "step-6",
+        "order": 1,
+        "action": "click",
+        "element": "a[href='/settings/team']",
+        "description": "Navigate to team settings",
+        "screenshot": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-10T16:21:00Z",
+        "annotations": []
+      },
+      {
+        "id": "step-7",
+        "order": 2,
+        "action": "click",
+        "element": "button[data-action='add-member']",
+        "description": "Click 'Add Member' to invite a new team member",
+        "screenshot": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-10T16:22:00Z",
+        "annotations": []
+      },
+      {
+        "id": "step-8",
+        "order": 3,
+        "action": "type",
+        "element": "input[name='member-email']",
+        "description": "Enter the email address of the team member",
+        "screenshot": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-10T16:23:00Z",
+        "annotations": []
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "title": "Exporting Data Reports",
+    "description": "How to generate and export various data reports",
+    "status": "Published",
+    "createdAt": "2024-01-08T14:45:00Z",
+    "updatedAt": "2024-01-09T09:20:00Z",
+    "views": 134,
+    "shareId": "export-reports-004",
+    "steps": [
+      {
+        "id": "step-9",
+        "order": 1,
+        "action": "click",
+        "element": "a[href='/reports']",
+        "description": "Go to the Reports section",
+        "screenshot": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-08T14:46:00Z",
+        "annotations": []
+      },
+      {
+        "id": "step-10",
+        "order": 2,
+        "action": "click",
+        "element": "select[name='report-type']",
+        "description": "Select the type of report you want to generate",
+        "screenshot": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-08T14:47:00Z",
+        "annotations": []
+      }
+    ]
+  },
+  {
+    "Id": 5,
+    "title": "Integrating Third-Party Tools",
+    "description": "Connect external tools and services to enhance your workflow",
+    "status": "Published",
+    "createdAt": "2024-01-05T11:30:00Z",
+    "updatedAt": "2024-01-06T15:10:00Z",
+    "views": 89,
+    "shareId": "integrations-005",
+    "steps": [
+      {
+        "id": "step-11",
+        "order": 1,
+        "action": "click",
+        "element": "a[href='/integrations']",
+        "description": "Access the integrations page",
+        "screenshot": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-05T11:31:00Z",
+        "annotations": []
+      },
+      {
+        "id": "step-12",
+        "order": 2,
+        "action": "click",
+        "element": "button[data-integration='slack']",
+        "description": "Click on the Slack integration option",
+        "screenshot": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-05T11:32:00Z",
+        "annotations": []
+      }
+    ]
+  },
+  {
+    "Id": 6,
+    "title": "Advanced Search Features",
+    "description": "Master the advanced search capabilities for better productivity",
+    "status": "Draft",
+    "createdAt": "2024-01-03T13:20:00Z",
+    "updatedAt": "2024-01-04T16:45:00Z",
+    "views": 56,
+    "shareId": "advanced-search-006",
+    "steps": [
+      {
+        "id": "step-13",
+        "order": 1,
+        "action": "click",
+        "element": "input[data-testid='search-input']",
+        "description": "Click on the search bar to activate advanced options",
+        "screenshot": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-03T13:21:00Z",
+        "annotations": []
+      },
+      {
+        "id": "step-14",
+        "order": 2,
+        "action": "type",
+        "element": "input[data-testid='search-input']",
+        "description": "Type your search query with advanced operators",
+        "screenshot": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop",
+        "timestamp": "2024-01-03T13:22:00Z",
+        "annotations": []
+      }
+    ]
+  }
+]
