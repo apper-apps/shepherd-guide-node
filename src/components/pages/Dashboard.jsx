@@ -92,7 +92,7 @@ const Dashboard = () => {
       <div className="text-center space-y-6">
         <div className="space-y-4">
           <h1 className="text-4xl font-bold text-surface-900">
-            Welcome to <span className="text-gradient-primary">Not at all Shepherd</span> from chat of Apper
+            Welcome to <span className="text-gradient-primary">New day</span> from chat of Apper
           </h1>
           <p className="text-xl text-surface-600 max-w-2xl mx-auto">
             Perfect for tutorials, onboarding, and documentation.
